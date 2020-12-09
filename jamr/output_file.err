@@ -1,0 +1,1143 @@
+# ::snt Add Don and Sherri to my Meditate to Sounds of Nature playlist 
+# ::tok Add Don and Sherri to my Meditate to Sounds of Nature playlist 
+# ::alignments 11-12|0.2.0 10-11|0.2.0.0 8-9|0.2 6-7|0.1 3-4|0.0.1.0.0+0.0.1.0+0.0.1 2-3|0.0 1-2|0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:48.901
+(a2 / add-01 
+      :ARG1 (a / and 
+            :op1 (p3 / person 
+                  :name (n3 / name 
+                        :op1 "Don") 
+                  :wiki -) 
+            :op2 (p2 / person 
+                  :name (n2 / name 
+                        :op1 "Sherri"))) 
+      :ARG2 (m / meditate-01) 
+      :ARG3 (s / sound-01 
+            :ARG1 (p / playlist 
+                  :mod (n / nature))))
+
+# ::snt put United Abominations onto my rare groove playlist 
+# ::tok put United Abominations onto my rare groove playlist 
+# ::alignments 7-8|0.1.0 6-7|0.1.0.0 5-6|0.1.0.1 3-4|0.1 1-3|0.0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:49.114
+(p2 / put-01 
+      :ARG1 (o2 / organization 
+            :name (n / name 
+                  :op1 "United" 
+                  :op2 "Abominations")) 
+      :time (o / onto 
+            :op1 (p / playlist 
+                  :ARG1-of (g / groove-01) 
+                  :ARG1-of (r / rare-02))))
+
+# ::snt add the tune by misato watanabe to the Trapeo playlist 
+# ::tok add the tune by misato watanabe to the Trapeo playlist 
+# ::alignments 9-10|0.0.0.0 8-9|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 5-6|0.0 4-5|0.0.0 2-3|0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:49.270
+(a / add-02 
+      :ARG0 (w / watanabe 
+            :mod (m / misato 
+                  :op1 (p / playlist 
+                        :mod (t / thing 
+                              :name (n / name 
+                                    :op1 "Trapeo"))))) 
+      :ARG1 (t2 / tune-01))
+
+# ::snt add this artist to my this is miguel bosé playlist 
+# ::tok add this artist to my this is miguel bosé playlist 
+# ::alignments 9-10|0.2 5-6|0.0 2-3|0.1 1-2|0.1.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:49.421
+(a2 / add-02 
+      :ARG0 (t / this) 
+      :ARG1 (a / artist 
+            :mod (t2 / this)) 
+      :ARG2 (p / playlist))
+
+# ::snt add heresy and the hotel choir to the evening acoustic playlist 
+# ::tok add heresy and the hotel choir to the evening acoustic playlist 
+# ::alignments 10-11|0.1 9-10|0 8-9|0.0 5-6|0.1.0 4-5|0.2 2-3|0.1.0.0 1-2|0.1.0.0.0.0 0-1|0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:50.206
+(a / acoustic 
+      :mod (e / evening) 
+      :mod-of (p / playlist 
+            :beneficiary-of (c / choir 
+                  :op1-of (a2 / and 
+                        :ARG0-of (a3 / add-02 
+                              :ARG1 (h2 / heresy))))) 
+      :op1-of (h / hotel))
+
+# ::snt Please add Jency Anthony to my playlist This Is Mozart 
+# ::tok Please add Jency Anthony to my playlist This Is Mozart 
+# ::alignments 9-10|0.0.1.0.0.2+0.0.1.0.0.1.0+0.0.1.0.0.1+0.0.1.0.0 8-9|0.0.1.0 7-8|0.0.1.0.0.0 6-7|0.0.1 2-4|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:50.568
+(p3 / please-01 
+      :ARG1 (a2 / add-02 
+            :ARG1 (t2 / thing 
+                  :name (n2 / name 
+                        :op1 (j / Jency) 
+                        :op2 (a / Anthony))) 
+            :ARG2 (p2 / playlist 
+                  :ARG0-of (b / be-01 
+                        :ARG1 (p / person 
+                              :domain (t / this) 
+                              :name (n / name 
+                                    :op1 "Mozart") 
+                              :wiki "Wolfgang_Amadeus_Mozart")))))
+
+# ::snt Add an album to my list La Mejor Música Dance 2017 
+# ::tok Add an album to my list La Mejor Música Dance 2017 
+# ::alignments 10-11|0.0.0.0.0.0.0+0.0.0.0.0.0 9-10|0.0.0.0.0 8-9|0.0.0.0.1.0+0.0.0.0.1+0.0.0.0 6-8|0.0.0.1.0.1+0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 5-6|0.0.0 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:50.970
+(a2 / add-01 
+      :ARG1 (a / album 
+            :ARG0-of (l / list-01 
+                  :ARG1 (c / country 
+                        :ARG1-of (d2 / dance-01 
+                              :ARG0 (d / date-entity 
+                                    :year 2017)) 
+                        :name (n / name 
+                              :op1 "Música")) 
+                  :ARG2 (p / person 
+                        :name (n2 / name 
+                              :op1 "La" 
+                              :op2 "Mejor")))))
+
+# ::snt Add shame on you to my masters of metal playlist 
+# ::tok Add shame on you to my masters of metal playlist 
+# ::alignments 9-10|0.1.0 8-9|0.1.0.0 6-7|0.1 3-4|0.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.014
+(a / add-01 
+      :ARG1 (s / shame 
+            :poss (y / you)) 
+      :ARG2 (m2 / master 
+            :mod (p / playlist 
+                  :consist-of (m / metal))))
+
+# ::snt Add artist to playlist Epic Gaming 
+# ::tok Add artist to playlist Epic Gaming 
+# ::alignments 4-6|0.1.1.1+0.1.1.0+0.1.1+0.1 3-4|0.1.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.045
+(a2 / add-01 
+      :ARG1 (a / artist) 
+      :ARG2 (o / organization 
+            :mod (p / playlist) 
+            :name (n / name 
+                  :op1 "Epic" 
+                  :op2 "Gaming")))
+
+# ::snt Add The Private Collection onto my Cena Elegante playlist 
+# ::tok Add The Private Collection onto my Cena Elegante playlist 
+# ::alignments 8-9|0.1.0 6-8|0.1.0.0.0.1+0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 4-5|0.1 2-4|0.0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.087
+(a / add-01 
+      :ARG1 (o3 / organization 
+            :name (n2 / name 
+                  :op1 "Private" 
+                  :op2 "Collection")) 
+      :time (o2 / onto 
+            :op1 (p / playlist 
+                  :mod (o / organization 
+                        :name (n / name 
+                              :op1 "Cena" 
+                              :op2 "Elegante")))))
+
+# ::snt Put another track in my electronica & dance 
+# ::tok Put another track in my electronica & dance 
+# ::alignments 7-8|0.0.0 5-6|0.1 2-3|0.0 1-2|0.0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.113
+(p / put-01 
+      :ARG1 (t / track 
+            :ARG0-of (d / dance-01) 
+            :mod (a / another)) 
+      :ARG2 (e / electronica))
+
+# ::snt add this album to the playlist called dishwashing 
+# ::tok add this album to the playlist called dishwashing 
+# ::alignments 7-8|0 6-7|0.0 5-6|0.0.0 2-3|0.0.0.0.0 1-2|0.0.0.0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.145
+(d / dishwash 
+      :ARG2-of (c / call-01 
+            :ARG1 (p / playlist 
+                  :ARG2-of (a2 / add-02 
+                        :ARG1 (a / album 
+                              :mod (t / this))))))
+
+# ::snt add Classic Punk by Chab 
+# ::tok add Classic Punk by Chab 
+# ::alignments 4-5|0.0.0.0+0.0.0+0.0 2-3|0.1 1-2|0.1.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.171
+(a / add-02 
+      :ARG0 (p / person 
+            :name (n / name 
+                  :op1 "Chab")) 
+      :ARG1 (p2 / punk 
+            :mod (c / classic)))
+
+# ::snt add megon mcdonough indie songs for slackers to playlist artist 
+# ::tok add megon mcdonough indie songs for slackers to playlist artist 
+# ::alignments 9-10|0.0.0.1.0 8-9|0.0.0.1 6-7|0.1 4-5|0.0 3-4|0.0.0 2-3|0.0.0.0 1-2|0.0.0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.301
+(a2 / add-02 
+      :ARG1 (s2 / song 
+            :mod (i / indie 
+                  :mod (m / mcdonough 
+                        :mod (m2 / megon)) 
+                  :mod-of (p / playlist 
+                        :mod-of (a / artist)))) 
+      :ARG2 (s / slacker))
+
+# ::snt Add the name Shall We Dance to playlist Rock 
+# ::tok Add the name Shall We Dance to playlist Rock 
+# ::alignments 8-9|0.0.0.1.1+0.0.0.1.0.1+0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 7-8|0.0.0.0 5-6|0.0.0 4-5|0.0 3-4|0.1 2-3|0.1.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.504
+(a / add-01 
+      :ARG0 (w / we 
+            :ARG0-of (d / dance-01 
+                  :ARG1 (p / playlist) 
+                  :ARG2 (c / company 
+                        :name (n / name 
+                              :op1 "Northern" 
+                              :op2 "Rock") 
+                        :wiki "Northern_Rock"))) 
+      :ARG1 (s / Shall 
+            :name (n2 / name)))
+
+# ::snt add Lee Seung gi to my Baila Reggaeton playlist 
+# ::tok add Lee Seung gi to my Baila Reggaeton playlist 
+# ::alignments 8-9|0.1 6-8|0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 1-4|0.0.0.2+0.0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.596
+(a / add-02 
+      :ARG1 (p2 / person 
+            :name (n2 / name 
+                  :op1 "Lee" 
+                  :op2 "Seung" 
+                  :op3 "gi")) 
+      :ARG2 (p / playlist 
+            :mod (t / thing 
+                  :name (n / name 
+                        :op1 "Baila" 
+                        :op2 "Reggaeton"))))
+
+# ::snt put frank farian on my Deep Dark Indie Folk playlist 
+# ::tok put frank farian on my Deep Dark Indie Folk playlist 
+# ::alignments 9-10|0.1 8-9|0.1.1 7-8|0.1.1.0 6-7|0.1.2 5-6|0.1.0 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.723
+(p2 / put-01 
+      :ARG1 (f2 / farian 
+            :mod (f3 / frank)) 
+      :ARG2 (p / playlist 
+            :ARG1-of (d2 / deep-02) 
+            :mod (f / folk 
+                  :mod (i / indie)) 
+            :mod (d / dark)))
+
+# ::snt Include hohenfriedberger marsch to my Novedades Pop 
+# ::tok Include hohenfriedberger marsch to my Novedades Pop 
+# ::alignments 6-7|0.1 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.739
+(i / include-01 
+      :ARG1 (h / hohenfriedberg) 
+      :ARG2 (p / pop))
+
+# ::snt add alexandra govere to my anochecer urbano playlist 
+# ::tok add alexandra govere to my anochecer urbano playlist 
+# ::alignments 7-8|0.1 6-7|0.1.0 5-6|0.1.0.0 1-3|0.0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:51.945
+(a2 / add-02 
+      :ARG1 (p2 / person 
+            :name (n / name 
+                  :op1 "alexandra" 
+                  :op2 "govere")) 
+      :ARG2 (p / playlist 
+            :mod (u / urbano 
+                  :mod (a / anochec))))
+
+# ::snt Please put maimi yajima 's song onto Operación Bikini 
+# ::tok Please put maimi yajima 's song onto Operación Bikini 
+# ::alignments 7-9|0.2.0.1+0.2.0.0+0.2.0+0.2 6-7|0.2.1 5-6|0.1 3-4|0.1.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:52.036
+(p / put-01 
+      :ARG0 (p2 / please) 
+      :ARG1 (s / song 
+            :poss (y / yajima)) 
+      :ARG2 (t / thing 
+            :name (n / name 
+                  :op1 "Operación" 
+                  :op2 "Bikini") 
+            :op1-of (o / onto)))
+
+# ::snt For my playlist chill add the name Cater Fe She 
+# ::tok For my playlist chill add the name Cater Fe She 
+# ::alignments 9-10|0.1 8-9|0.1.0.2+0.1.0.0.0+0.1.0.0+0.1.0 6-7|0.1.0.1 4-5|0 3-4|0.0 2-3|0.0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:52.116
+(a / add-02 
+      :ARG0 (c / chill-01 
+            :mod (p / playlist)) 
+      :ARG1 (s / she 
+            :mod (g / government-organization 
+                  :name (n / name 
+                        :op1 "FE") 
+                  :name (n2 / name) 
+                  :wiki "Danish_Defence_Intelligence_Service")))
+
+# ::snt add when ice met cream to This Is Alejandro Fernández playlist 
+# ::tok add when ice met cream to This Is Alejandro Fernández playlist 
+# ::alignments 10-11|0.0.1.0.1 8-10|0.0.1.0.0.0.1+0.0.1.0.0.0.0+0.0.1.0.0.0+0.0.1.0.0 7-8|0.0.1.0 6-7|0.0.1.0.1.0 4-5|0.0.1 3-4|0.0 2-3|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:52.171
+(a / add-02 
+      :time (m / meet-03 
+            :ARG0 (i / ice) 
+            :time (c / cream-01 
+                  :ARG2 (b / be-01 
+                        :ARG0 (p2 / person 
+                              :name (n / name 
+                                    :op1 "Alejandro" 
+                                    :op2 "Fernández")) 
+                        :ARG1 (p / playlist 
+                              :mod (t / this))))))
+
+# ::snt Add Banana Republic to my this is puccini playlist 
+# ::tok Add Banana Republic to my this is puccini playlist 
+# ::alignments 8-9|0.0.0 7-8|0.0.0.0 5-6|0.0.2 1-3|0.0.1.1+0.0.1.0+0.0.1+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:52.199
+(a / add-01 
+      :ARG0 (o / organization 
+            :domain-of (p / playlist 
+                  :mod (p2 / puccini)) 
+            :name (n / name 
+                  :op1 "Banana" 
+                  :op2 "Republic") 
+            :topic (t / this)))
+
+# ::snt add the Chamillionaire track to lina's wedding classics playlist 
+# ::tok add the Chamillionaire track to lina's wedding classics playlist 
+# ::alignments 8-9|0.0.0 7-8|0.0.0.1 6-7|0.0.0.0 5-6|0.0.0.1.0 3-4|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:52.227
+(a / add-02 
+      :ARG1 (t / track 
+            :name (p / playlist 
+                  :ARG1-of (w / wed-01) 
+                  :mod (c / classic 
+                        :part-of (l / lina')))))
+
+# ::snt put this Kan Mikami tune on fresh finds cyclone 
+# ::tok put this Kan Mikami tune on fresh finds cyclone 
+# ::alignments 8-9|0.1 7-8|0.1.0 6-7|0.1.1 4-5|0.0 2-4|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 1-2|0.0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:52.385
+(p2 / put-01 
+      :ARG1 (t / tune-01 
+            :ARG0 (p / person 
+                  :name (n / name 
+                        :op1 "Kan" 
+                        :op2 "Mikami")) 
+            :mod (t2 / this)) 
+      :ARG2 (c / cyclone 
+            :ARG1-of (f / find-01) 
+            :ARG1-of (f2 / fresh-04)))
+
+# ::snt add mike mogis onto my crate diggers anonymous playlist 
+# ::tok add mike mogis onto my crate diggers anonymous playlist 
+# ::alignments 8-9|0.1.0.0.0 7-8|0.1.0.0.0.0 6-7|0.1.0 5-6|0.1.0.0 3-4|0.1 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:52.434
+(a2 / add-02 
+      :ARG1 (m / mogi 
+            :mod (m2 / mike)) 
+      :time (o / onto 
+            :op1 (d / digger 
+                  :ARG1-of (c / crate-01 
+                        :location-of (p / playlist 
+                              :mod (a / anonymous))))))
+
+# ::snt Add Jon McLaughlin to my forever country 
+# ::tok Add Jon McLaughlin to my forever country 
+# ::alignments 6-7|0.1 5-6|0.1.0 1-3|0.0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:52.494
+(a / add-01 
+      :ARG1 (p / person 
+            :name (n / name 
+                  :op1 "Jon" 
+                  :op2 "McLaughlin")) 
+      :ARG3 (c / country 
+            :mod (f / forever)))
+
+# ::snt add sheila e to my i love my neo soul playlist 
+# ::tok add sheila e to my i love my neo soul playlist 
+# ::alignments 10-11|0.1.0.1 9-10|0.1 8-9|0 6-7|0.1.0 5-6|0.1.0.0 1-2|0.0.0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:52.601
+(n / neo 
+      :ARG0-of (a / add-02 
+            :ARG1 (s2 / sheila)) 
+      :mod-of (s / soul 
+            :location-of (l / love-01 
+                  :ARG0 (i / i) 
+                  :ARG1 (p / playlist))))
+
+# ::snt Can you add something from Method Man to my this is mozart playlist 
+# ::tok Can you add something from Method Man to my this is mozart playlist 
+# ::alignments 12-13|0.0.1 11-12|0.0 9-10|0.0.0 6-7|0.1.1.0 3-4|0.1.1 2-3|0.1 1-2|0.1.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.032
+(p2 / possible-01 
+      :ARG0 (m / mozart 
+            :domain (t / this) 
+            :mod-of (p / playlist)) 
+      :ARG1 (a / add-02 
+            :ARG0 (y / you) 
+            :ARG1 (s / something 
+                  :mod (m2 / man))))
+
+# ::snt Add an artist to my Hype list 
+# ::tok Add an artist to my Hype list 
+# ::alignments 6-7|0.0.0.0 5-6|0.0.0 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.045
+(a2 / add-01 
+      :ARG1 (a / artist 
+            :ARG0-of (h / hype-01 
+                  :ARG2-of (l / list-01))))
+
+# ::snt add track to my playlist a sudden rainstorm 
+# ::tok add track to my playlist a sudden rainstorm 
+# ::alignments 7-8|0.1 6-7|0.1.0 4-5|0.0 1-2|0.2 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.152
+(a / add-02 
+      :ARG0 (p / playlist) 
+      :ARG1 (r / rainstorm 
+            :manner (s / sudden)) 
+      :ARG2 (t / track))
+
+# ::snt please add John Deacon to the funtime activity playlist 
+# ::tok please add John Deacon to the funtime activity playlist 
+# ::alignments 8-9|0.0.0.0.0 7-8|0.0.0.0 2-4|0.0.0.1.1+0.0.0.1.0+0.0.0.1+0.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.178
+(p3 / please-01 
+      :ARG1 (a2 / add-02 
+            :ARG1 (p2 / person 
+                  :ARG0-of (a / activity-06 
+                        :mod-of (p / playlist)) 
+                  :name (n / name 
+                        :op1 "John" 
+                        :op2 "Deacon"))))
+
+# ::snt Add track to this is puccini 
+# ::tok Add track to this is puccini 
+# ::alignments 5-6|0.0.0 3-4|0.0.1 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.193
+(a / add-01 
+      :ARG1 (t2 / track 
+            :domain-of (p / puccini) 
+            :topic (t / this)))
+
+# ::snt Add irving berlin to my dishwashing 
+# ::tok Add irving berlin to my dishwashing 
+# ::alignments 5-6|0.1 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.209
+(a / add-01 
+      :ARG1 (b / berlin 
+            :mod (i / irv)) 
+      :ARG2 (d / dishwash))
+
+# ::snt Add As I Was Going to St Ives to the fantasía 
+# ::tok Add As I Was Going to St Ives to the fantasía 
+# ::alignments 6-8|0.0.1.0.1+0.0.1.0.0+0.0.1.0+0.0.1 4-5|0.0 3-4|0.0.0.0 2-3|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.251
+(a / add-01 
+      :ARG1 (g / go-02 
+            :ARG0 (i / i 
+                  :ARG0-of (b / be-01)) 
+            :ARG4 (o / organization 
+                  :name (n / name 
+                        :op1 "St" 
+                        :op2 "Ives"))))
+
+# ::snt I want lay down your arms in the indie español 
+# ::tok I want lay down your arms in the indie español 
+# ::alignments 8-9|0.1.2 5-6|0.1.0 3-4|0.1.1 2-3|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.289
+(w / want-01 
+      :ARG0 (i2 / i) 
+      :ARG1 (l / lay-01 
+            :ARG1 (a / arm) 
+            :direction (d / down) 
+            :manner (i / indie)))
+
+# ::snt Add Kevin Cadogan to the 80s Classic Hits list 
+# ::tok Add Kevin Cadogan to the 80s Classic Hits list 
+# ::alignments 8-9|0.1 7-8|0.1.1 6-7|0.1.1.0 5-6|0.1.0 1-3|0.0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.357
+(a / add-01 
+      :ARG1 (p / person 
+            :name (n / name 
+                  :op1 "Kevin" 
+                  :op2 "Cadogan")) 
+      :ARG3 (l / list-01 
+            :ARG1 80 
+            :ARG2 (h / hit-01 
+                  :ARG1 (c / classic))))
+
+# ::snt Put Kim Kibum in my the martin garrix show 
+# ::tok Put Kim Kibum in my the martin garrix show 
+# ::alignments 8-9|0.1 6-7|0.1.0 1-3|0.0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.379
+(p2 / put-01 
+      :ARG1 (p / person 
+            :name (n / name 
+                  :op1 "Kim" 
+                  :op2 "Kibum")) 
+      :ARG2 (s / show-01 
+            :ARG1 (m / martin)))
+
+# ::snt Can Super Turnt Up get added to my emotron playlist? 
+# ::tok Can Super Turnt Up get added to my emotron playlist? 
+# ::alignments 8-9|0.2 5-6|0 3-4|0.0 1-3|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.671
+(a / add-01 
+      :ARG1 (u / up-01 
+            :ARG1 (t / thing 
+                  :name (n / name 
+                        :op1 (s / Super) 
+                        :op2 (t2 / Turnt)))) 
+      :ARG1-of (p / possible-01) 
+      :ARG2 (e / emotron))
+
+# ::snt Add the name as with gladness men of old to my ultimate 90s playlist 
+# ::tok Add the name as with gladness men of old to my ultimate 90s playlist 
+# ::alignments 13-14|0.0.0 12-13|0.0 11-12|0.0.0.1 8-9|0.0.0.0 6-7|0.0.0.0.0 5-6|0.0.0.0.0.0 2-3|0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.781
+(a / add-01 
+      :ARG0 (9 / 90 
+            :mod-of (p / playlist 
+                  :beneficiary-of (o / old 
+                        :mod-of (m / man 
+                              :ARG1-of (g / glad-02))) 
+                  :mod (u / ultimate))) 
+      :ARG1 (n / name))
+
+# ::snt add this song onto hip hop gaming playlist 
+# ::tok add this song onto hip hop gaming playlist 
+# ::alignments 7-8|0.2.0 6-7|0.1 5-6|0.2.0.0 4-5|0.2.0.0.0 3-4|0.2 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.896
+(a / add-02 
+      :ARG1 (s / song 
+            :mod (t / this)) 
+      :ARG2 (g / game) 
+      :time (o / onto 
+            :op1 (p / playlist 
+                  :ARG0-of (h / hop-02 
+                        :ARG1 (h2 / hip)))))
+
+# ::snt Add Hatfield and the North to my Hot House 
+# ::tok Add Hatfield and the North to my Hot House 
+# ::alignments 7-9|0.1.0.1+0.1.0.0+0.1.0+0.1 4-5|0.0.1 2-3|0.0 1-2|0.0.0.0.0+0.0.0.0+0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:53.965
+(a2 / add-01 
+      :ARG1 (a / and 
+            :op1 (p / person 
+                  :name (n2 / name 
+                        :op1 "Hatfield")) 
+            :op2 "North_Korea") 
+      :ARG2 (c / country 
+            :name (n / name 
+                  :op1 "Hot" 
+                  :op2 "House")))
+
+# ::snt Add chen jiafeng to Ultimate 00s 
+# ::tok Add chen jiafeng to Ultimate 00s 
+# ::alignments 5-6|0.1 4-5|0.1.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:54.005
+(a / add-01 
+      :ARG1 (c / chen) 
+      :ARG2 (0 / 00 
+            :mod (u / ultimate)))
+
+# ::snt Add the trey gunn tune to my French N' Heavy 
+# ::tok Add the trey gunn tune to my French N' Heavy 
+# ::alignments 8-10|0.1.0.1+0.1.0.0+0.1.0+0.1 7-8|0.0.0 4-5|0.0 2-3|0.0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:54.132
+(a / add-01 
+      :ARG1 (t2 / tune-01 
+            :ARG1 "France" 
+            :mod (t3 / trey)) 
+      :ARG2 (t / thing 
+            :name (n / name 
+                  :op1 "N'" 
+                  :op2 "Heavy")))
+
+# ::snt add this track to morning classical 
+# ::tok add this track to morning classical 
+# ::alignments 5-6|0.1 4-5|0.1.0 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:54.155
+(a / add-02 
+      :ARG1 (t / track 
+            :mod (t2 / this)) 
+      :ARG2 (c / classics 
+            :mod (m / morning)))
+
+# ::snt add tune to Soft Rock playlist 
+# ::tok add tune to Soft Rock playlist 
+# ::alignments 5-6|0.1 4-5|0.1.0.2+0.1.0.1.1+0.1.0.1.0+0.1.0.1+0.1.0 3-4|0.1.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:54.253
+(a / add-02 
+      :ARG1 (t / tune-01) 
+      :ARG2 (p / playlist 
+            :mod (c / company 
+                  :mod (s / soft) 
+                  :name (n / name 
+                        :op1 "Northern" 
+                        :op2 "Rock") 
+                  :wiki "Northern_Rock")))
+
+# ::snt add to laundry playlist with this song 
+# ::tok add to laundry playlist with this song 
+# ::alignments 6-7|0.0 5-6|0.0.0 3-4|0.1 2-3|0.1.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:54.276
+(a / add-02 
+      :ARG1 (s / song 
+            :mod (t / this)) 
+      :ARG2 (p / playlist 
+            :mod (l / laundry)))
+
+# ::snt Add a track to my Alok House Party playlist 
+# ::tok Add a track to my Alok House Party playlist 
+# ::alignments 8-9|0.1 5-8|0.1.0.0.2+0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:54.360
+(a / add-01 
+      :ARG1 (t / track) 
+      :ARG3 (p / playlist 
+            :mod (o / organization 
+                  :name (n / name 
+                        :op1 "Alok" 
+                        :op2 "House" 
+                        :op3 "Party"))))
+
+# ::snt Place this tune in workout remix 
+# ::tok Place this tune in workout remix 
+# ::alignments 4-5|0.0.0 2-3|0.0 1-2|0.0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:54.380
+(p / place-01 
+      :ARG1 (t / tune-01 
+            :ARG1 (w / workout) 
+            :mod (t2 / this)))
+
+# ::snt I'd like to add the artist Jesper Kyd onto my fresh electronic 
+# ::tok I'd like to add the artist Jesper Kyd onto my fresh electronic 
+# ::alignments 11-12|0.0.2.1 10-11|0.0.2.0 8-9|0.0.2 6-8|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 5-6|0 3-4|0.0 1-2|0.0.1 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:54.900
+(a / artist 
+      :ARG0-of (a2 / add-02 
+            :ARG1 (t / thing 
+                  :name (n / name 
+                        :op1 (j / Jesper) 
+                        :op2 (k / Kyd))) 
+            :ARG1-of (l / like-02) 
+            :time (o / onto 
+                  :ARG1-of (f / fresh-04) 
+                  :op1 (e / electronic))))
+
+# ::snt add this artist named Cleopatra Stratan to my playlist named 30 Before 20 Masterworks by Teenagers 
+# ::tok add this artist named Cleopatra Stratan to my playlist named 30 Before 20 Masterworks by Teenagers 
+# ::alignments 15-16|0.0.0 13-14|0 12-13|0.1 11-12|0.0 10-11|0.0.0.0.1 8-9|0.0.0.0.0.1.0.0 4-6|0.0.0.0.0.1.0.2+0.0.0.0.0.1.0.1+0.0.0.0.0.1.0+0.0.0.0.0.1 2-3|0.0.0.0.0 1-2|0.0.0.0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:55.419
+(m / masterwork 
+      :op1-of (b / before 
+            :quant-of (t / teenager 
+                  :ARG0-of (a2 / add-02 
+                        :ARG1 (a / artist 
+                              :mod (t2 / this) 
+                              :topic (p2 / person 
+                                    :name (n / name 
+                                          :name (p / playlist) 
+                                          :op1 "Cleopatra" 
+                                          :op2 "Stratan"))) 
+                        :ARG2 30))) 
+      :quant 20)
+
+# ::snt add erik santos in my playlist Metal Xplorer 
+# ::tok add erik santos in my playlist Metal Xplorer 
+# ::alignments 7-8|0.1 6-7|0.2.0 5-6|0.2 1-3|0.0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:55.714
+(a / add-02 
+      :ARG1 (p2 / person 
+            :name (n / name 
+                  :op1 "erik" 
+                  :op2 "santos")) 
+      :ARG2 (x / xplor) 
+      :location (p / playlist 
+            :mod-of (m / metal)))
+
+# ::snt Add the tune to Your Favorite Slaughterhouse 
+# ::tok Add the tune to Your Favorite Slaughterhouse 
+# ::alignments 5-7|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:55.730
+(a / add-01 
+      :ARG1 (t2 / tune-01 
+            :ARG1 (t / thing 
+                  :name (n / name 
+                        :op1 "Favorite" 
+                        :op2 "Slaughterhouse"))))
+
+# ::snt add Joe Gibbs to my The Bachelor Party playlist 
+# ::tok add Joe Gibbs to my The Bachelor Party playlist 
+# ::alignments 8-9|0.1.0 6-8|0.1.1.1+0.1.1.0+0.1.1+0.1 1-3|0.0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:55.796
+(a / add-02 
+      :ARG1 (p2 / person 
+            :name (n2 / name 
+                  :op1 "Joe" 
+                  :op2 "Gibbs")) 
+      :ARG2 (o / organization 
+            :mod-of (p / playlist) 
+            :name (n / name 
+                  :op1 "Bachelor" 
+                  :op2 "Party")))
+
+# ::snt Please add Liberty Forever to the road trip 
+# ::tok Please add Liberty Forever to the road trip 
+# ::alignments 7-8|0.0.1 6-7|0.0.1.0 2-4|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:55.876
+(p / please-01 
+      :ARG1 (a / add-02 
+            :ARG1 (t2 / thing 
+                  :name (n / name 
+                        :op1 "Liberty" 
+                        :op2 "Forever")) 
+            :ARG2 (t / trip-03 
+                  :ARG1 (r / road))))
+
+# ::snt add Salil Chowdhury to my 35 Soul Classics 1970 to 1975 playlsit 
+# ::tok add Salil Chowdhury to my 35 Soul Classics 1970 to 1975 playlsit 
+# ::alignments 11-12|0.2.0 10-11|0.2.1+0.2 8-9|0.2.0.0.0+0.2.0.0 7-8|0.1 6-7|0.1.0 5-6|0.1.0.0 2-3|0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:56.092
+(a / add-02 
+      :ARG1 (p2 / person 
+            :name (n / name 
+                  :op1 "Chowdhury") 
+            :wiki "Saber_Hossain_Chowdhury") 
+      :ARG2 (c / classic 
+            :mod (s / soul 
+                  :quant 35)) 
+      :time (d / date-entity 
+            :time-of (p / playlsit 
+                  :time (d2 / date-entity 
+                        :year 1970)) 
+            :year 1975))
+
+# ::snt I need to add to the all things post starting with favorites from the silence 
+# ::tok I need to add to the all things post starting with favorites from the silence 
+# ::alignments 14-15|0.1.0.0.0.0 11-12|0.1.0.0.0 9-10|0.1.0.0 8-9|0.1.0 7-8|0.1.0.0.0.0.0 6-7|0.1.0.0.1 3-4|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:56.208
+(n / need-01 
+      :ARG0 (i / i) 
+      :ARG1 (a2 / add-02 
+            :ARG1 (p / post 
+                  :ARG1-of (s2 / start-01 
+                        :ARG0 (f / favorit 
+                              :source (s / silence-01 
+                                    :ARG2 (t / thing))) 
+                        :ARG2 (a / all))) 
+            :ARG0 i))
+
+# ::snt Add The “Chirping” Crickets to my Mellowed Out Gaming playlist 
+# ::tok Add The “Chirping” Crickets to my Mellowed Out Gaming playlist 
+# ::alignments 9-10|0.1 6-9|0.1.0.0.2+0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 3-4|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:56.247
+(a / add-01 
+      :ARG1 (c / cricket) 
+      :ARG2 (p / playlist 
+            :mod (t / thing 
+                  :name (n / name 
+                        :op1 "Mellowed" 
+                        :op2 "Out" 
+                        :op3 "Gaming"))))
+
+# ::snt Add tune to Blues 
+# ::tok Add tune to Blues 
+# ::alignments 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:56.255
+(a / add-01 
+      :ARG1 (t / tune-01))
+
+# ::snt I want the Turbonegro album to go on the playlist called Genuine R&B 
+# ::tok I want the Turbonegro album to go on the playlist called Genuine R&B 
+# ::alignments 11-12|0.0.0.1 10-11|0.0.0.0.0 9-10|0.0.0.0 6-7|0.0.0 4-5|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:56.655
+(w / want-01 
+      :ARG0 (i / i 
+            :ARG0-of (g2 / go-02 
+                  :ARG1 (p / playlist 
+                        :ARG1-of (c / call-01)) 
+                  :ARG3 (g / genuine))) 
+      :ARG1 (a / album))
+
+# ::snt Add Munawar Ali Khan to my mujeres y hombres y fiesta 
+# ::tok Add Munawar Ali Khan to my mujeres y hombres y fiesta 
+# ::alignments 10-11|0.2 9-10|0.2.0 8-9|0.2.0.0 7-8|0.2.0.0.0 6-7|0.2.0.0.0.0 2-4|0.0.0.1+0.0.0.0+0.0.0+0.0 1-2|0.1.0.0+0.1.0+0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:56.938
+(a / add-01 
+      :ARG0 (p / person 
+            :name (n / name 
+                  :op1 "Ali" 
+                  :op2 "Khan")) 
+      :ARG1 (t / thing 
+            :name (n2 / name 
+                  :op1 "Munawar")) 
+      :ARG2 (f / fiesta 
+            :mod (y / y 
+                  :mod (h / hombr 
+                        :mod (y2 / y 
+                              :mod (m / mujer))))))
+
+# ::snt add tune to my mellow bars playlist 
+# ::tok add tune to my mellow bars playlist 
+# ::alignments 6-7|0.0.0.0 5-6|0.0.0.0.0 4-5|0.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:56.961
+(a / add-02 
+      :ARG1 (t / tune-01 
+            :ARG1 (m / mellow-01 
+                  :ARG1 (p / playlist 
+                        :ARG1-of (b / bar-01)))))
+
+# ::snt Add mc ren to my It's a Southern Thing playlist 
+# ::tok Add mc ren to my It's a Southern Thing playlist 
+# ::alignments 9-10|0.0 8-9|0.0.0 7-8|0.0.1 5-6|0.2 2-3|0.1 1-2|0.1.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.035
+(a / add-01 
+      :ARG0 (p / playlist 
+            :mod (t / thing) 
+            :mod (s / southern)) 
+      :ARG1 (r / ren 
+            :mod (m / mc)) 
+      :ARG2 (i / it'))
+
+# ::snt Add this song to my roadrunner rec new releases 
+# ::tok Add this song to my roadrunner rec new releases 
+# ::alignments 8-9|0.1 7-8|0.1.1 5-6|0.1.0 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.086
+(a / add-01 
+      :ARG1 (s / song 
+            :mod (t / this)) 
+      :ARG2 (r / release-01 
+            :ARG1 (r2 / roadrunn) 
+            :mod (n / new)))
+
+# ::snt add Curse song to my playlist Guest List Engadget 
+# ::tok add Curse song to my playlist Guest List Engadget 
+# ::alignments 6-9|0.0.1.1.2+0.0.1.1.1+0.0.1.1.0+0.0.1.1+0.0.1 5-6|0.0.1.0 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.129
+(a / add-02 
+      :ARG1 (s / song 
+            :ARG1-of (c / curse-01) 
+            :prep-against-of (o / organization 
+                  :mod (p / playlist) 
+                  :name (n / name 
+                        :op1 "Guest" 
+                        :op2 "List" 
+                        :op3 "Engadget"))))
+
+# ::snt I need to add another track to my cleaning 
+# ::tok I need to add another track to my cleaning 
+# ::alignments 8-9|0.1.0.0 5-6|0.1.0 4-5|0.1.0.1 3-4|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.212
+(n / need-01 
+      :ARG0 (i / i) 
+      :ARG1 (a2 / add-02 
+            :ARG1 (t / track 
+                  :ARG0-of (c / clean-up-02) 
+                  :mod (a / another)) 
+            :ARG0 i))
+
+# ::snt add this artist to my 80'S PARTY 
+# ::tok add this artist to my 80'S PARTY 
+# ::alignments 6-7|0.1 5-6|0.1.0 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.264
+(a2 / add-02 
+      :ARG1 (a / artist 
+            :mod (t / this)) 
+      :ARG2 (p / party-01 
+            :ARG1 80'))
+
+# ::snt Add gene clark to diann's chill out list 
+# ::tok Add gene clark to diann's chill out list 
+# ::alignments 7-8|0.1 6-7|0.1.1 5-6|0.1.0.0 4-5|0.1.0 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.311
+(a / add-01 
+      :ARG1 (c2 / clark 
+            :mod (g / gene)) 
+      :ARG2 (l / list-01 
+            :ARG1 (d / diann' 
+                  :ARG1-of (c / chill-01)) 
+            :ARG2 (o / out)))
+
+# ::snt Add a tune to rare groove 
+# ::tok Add a tune to rare groove 
+# ::alignments 5-6|0.0.0 4-5|0.0.0.0 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.330
+(a / add-01 
+      :ARG1 (t / tune-01 
+            :ARG1 (g / groove-01 
+                  :ARG1-of (r / rare-02))))
+
+# ::snt add hopeful to my this is enrique iglesias 
+# ::tok add hopeful to my this is enrique iglesias 
+# ::alignments 7-8|0 4-5|0.0.0.0 1-2|0.0.0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.372
+(i / iglesia 
+      :ARG0-of (a / add-02 
+            :ARG1 (h / hopeful-03 
+                  :ARG2 (t / this))))
+
+# ::snt add scott putesky to concentración indie rock playlist 
+# ::tok add scott putesky to concentración indie rock playlist 
+# ::alignments 7-8|0.1 6-7|0.1.0 5-6|0.1.0.0 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.426
+(a / add-02 
+      :ARG1 (p2 / putesky 
+            :mod (s / scott)) 
+      :ARG2 (p / playlist 
+            :mod (r / rock 
+                  :mod (i / indie))))
+
+# ::snt A Shawnna to the Warm Hearts Feel Good 
+# ::tok A Shawnna to the Warm Hearts Feel Good 
+# ::alignments 4-8|0.1.3+0.1.2+0.1.1+0.1.0+0.1+0 1-2|0.0.0.0+0.0.0+0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.449
+(t / thing 
+      :domain (p / person 
+            :name (n2 / name 
+                  :op1 "Shawnna")) 
+      :name (n / name 
+            :op1 "Warm" 
+            :op2 "Hearts" 
+            :op3 "Feel" 
+            :op4 "Good"))
+
+# ::snt add artist John William Boone to my life's short; play fast playlist 
+# ::tok add artist John William Boone to my life's short; play fast playlist 
+# ::alignments 11-12|0.0.0.0 10-11|0.0.0.0.0 9-10|0.0.0 7-8|0.1 2-5|0.0.2.2+0.0.2.1+0.0.2.0+0.0.2+0.0 1-2|0.0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.641
+(a2 / add-02 
+      :ARG1 (p3 / person 
+            :ARG0-of (p2 / play-01 
+                  :ARG1 (p / playlist 
+                        :mod (f / fast))) 
+            :mod (a / artist) 
+            :name (n / name 
+                  :op1 "John" 
+                  :op2 "William" 
+                  :op3 "Boone")) 
+      :ARG2 (l / life'))
+
+# ::snt add jim martin to Deathcore 
+# ::tok add jim martin to Deathcore 
+# ::alignments 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.673
+(a / add-02 
+      :ARG1 (m / martin))
+
+# ::snt put this track on soul bpm playlist 
+# ::tok put this track on soul bpm playlist 
+# ::alignments 6-7|0.1 5-6|0.1.0 4-5|0.1.0.0 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:57.764
+(p2 / put-01 
+      :ARG1 (t / track 
+            :mod (t2 / this)) 
+      :ARG2 (p / playlist 
+            :mod (b / bpm 
+                  :mod (s / soul))))
+
+# ::snt add this artist named trevor mcnevan to the playlist top gaming tracks 
+# ::tok add this artist named trevor mcnevan to the playlist top gaming tracks 
+# ::alignments 11-12|0.0.0.1 10-11|0.0.0.1.2 9-10|0.0.0.1.0 8-9|0.0.0.1.1 5-6|0.0 4-5|0 2-3|0.0.0.0 1-2|0.0.0.0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:58.602
+(t3 / trevor 
+      :mod-of (m / mcnevan 
+            :ARG0-of (a2 / add-02 
+                  :ARG1 (a / artist 
+                        :mod (t4 / this)) 
+                  :ARG2 (t / track 
+                        :mod (t2 / top) 
+                        :mod (p / playlist) 
+                        :poss (g / game)))))
+
+# ::snt Add Ashley Cafagna Tesoro to my reggae en español list 
+# ::tok Add Ashley Cafagna Tesoro to my reggae en español list 
+# ::alignments 9-10|0.0.0 7-8|0.0.2 6-7|0.0.0.0 1-4|0.0.1.2+0.0.1.1+0.0.1.0+0.0.1+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:58.687
+(a / add-01 
+      :ARG1 (p / person 
+            :ARG0-of (l / list-01 
+                  :ARG1 (r / reggae)) 
+            :name (n / name 
+                  :op1 "Ashley" 
+                  :op2 "Cafagna" 
+                  :op3 "Tesoro") 
+            :prep-against-of (e / en)))
+
+# ::snt Add artist to playlist Classic Punk 
+# ::tok Add artist to playlist Classic Punk 
+# ::alignments 5-6|0.1 4-5|0.1.0 3-4|0.1.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:58.742
+(a2 / add-01 
+      :ARG1 (a / artist) 
+      :ARG2 (p / punk 
+            :mod (c / classic 
+                  :mod (p2 / playlist))))
+
+# ::snt Add a tune to my elrow Guest List 
+# ::tok Add a tune to my elrow Guest List 
+# ::alignments 6-8|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:58.762
+(a / add-01 
+      :ARG1 (t / tune-01 
+            :ARG1 (o / organization 
+                  :name (n / name 
+                        :op1 "Guest" 
+                        :op2 "List"))))
+
+# ::snt I want to add Anna Semenovich to the dinner with friends playlist 
+# ::tok I want to add Anna Semenovich to the dinner with friends playlist 
+# ::alignments 11-12|0.1.0.0.0.0 10-11|0.1.0.0.1+0.1.0.0+0.1.0.0.0 8-9|0.1.1 4-6|0.1.0.1.1+0.1.0.1.0+0.1.0.1+0.1.0 3-4|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.078
+(w / want-01 
+      :ARG0 (i / i) 
+      :ARG1 (a / add-02 
+            :ARG1 (p3 / person 
+                  :ARG1-of (h / have-rel-role-91 
+                        :ARG0 (p2 / person 
+                              :mod-of (p / playlist)) 
+                        :ARG2 (f / friend)) 
+                  :name (n / name 
+                        :op1 "Anna" 
+                        :op2 "Semenovich")) 
+            :ARG2 (d / dinner) 
+            :ARG0 i))
+
+# ::snt Play Disco Tango to Power Walk 
+# ::tok Play Disco Tango to Power Walk 
+# ::alignments 5-6|0.1 4-5|0.1.0 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.151
+(p2 / play-01 
+      :ARG1 (t / tango-01 
+            :ARG1 (d / disco)) 
+      :ARG2 (w / walk-01 
+            :ARG1 (p / power)))
+
+# ::snt Add tune to my Folk Music At The Gaslight Café 
+# ::tok Add tune to my Folk Music At The Gaslight Café 
+# ::alignments 8-10|0.2.0.1+0.2.0.0+0.2.0+0.2 5-6|0.0.0 4-5|0.1 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.319
+(a / add-01 
+      :ARG1 (t2 / tune-01 
+            :ARG1 (m / music)) 
+      :ARG2 (f / folk) 
+      :manner (t / thing 
+            :name (n / name 
+                  :op1 "Gaslight" 
+                  :op2 "Café")))
+
+# ::snt add this artist to romántica 
+# ::tok add this artist to romántica 
+# ::alignments 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.330
+(a2 / add-02 
+      :ARG1 (a / artist 
+            :mod (t / this)))
+
+# ::snt Please add 80s Classic Hits Asking for It to playlist 
+# ::tok Please add 80s Classic Hits Asking for It to playlist 
+# ::alignments 9-10|0.0.0.1 7-8|0.0.0.0 5-6|0.0.0 4-5|0.0.0.2 3-4|0.0.0.2.0 2-3|0.0.0.2.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.509
+(p2 / please-01 
+      :ARG1 (a2 / add-02 
+            :ARG1 (a / ask-01 
+                  :ARG0 (i / it) 
+                  :ARG1 (p / playlist) 
+                  :ARG1-of (h / hit-01 
+                        :ARG0 (c / classic 
+                              :mod 80)))))
+
+# ::snt add this artist to primavera sound 2016 barcelona 
+# ::tok add this artist to primavera sound 2016 barcelona 
+# ::alignments 7-8|0.1 6-7|0.1.1.0+0.1.1 5-6|0.1.0 4-5|0.1.0.0 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.566
+(a2 / add-02 
+      :ARG1 (a / artist 
+            :mod (t / this)) 
+      :ARG2 (b / barcelona 
+            :mod (s / sound 
+                  :mod (p / primavera)) 
+            :mod (d / date-entity 
+                  :year 2016)))
+
+# ::snt Add this album to Trotamundos 
+# ::tok Add this album to Trotamundos 
+# ::alignments 4-5|0.1.0.0+0.1.0+0.1 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.583
+(a2 / add-01 
+      :ARG1 (a / album 
+            :mod (t / this)) 
+      :ARG2 (p / person 
+            :name (n / name 
+                  :op1 "Trotamundos")))
+
+# ::snt Add splendido hotel to my verano forever 
+# ::tok Add splendido hotel to my verano forever 
+# ::alignments 6-7|0.1.0 5-6|0.1 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.769
+(a / add-01 
+      :ARG1 (h / hotel) 
+      :ARG2 (v / verano 
+            :mod (f / forever)))
+
+# ::snt add lunacy to my chill out playlist 
+# ::tok add lunacy to my chill out playlist 
+# ::alignments 6-7|0.1.0 4-5|0.1 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.781
+(a / add-02 
+      :ARG1 (l / lunacy) 
+      :ARG2 (c / chill-01 
+            :ARG1 (p / playlist)))
+
+# ::snt Add Without Your Love to my showstopper being mary jane list 
+# ::tok Add Without Your Love to my showstopper being mary jane list 
+# ::alignments 10-11|0.0 9-10|0.0.1 8-9|0.0.0 6-7|0.1.0 3-4|0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.810
+(a / add-01 
+      :ARG1 (l / list-01 
+            :ARG0 (m / mary) 
+            :ARG2 (j / jane)) 
+      :manner (l2 / love-01 
+            :ARG1 (s / showstopp)))
+
+# ::snt Add this song to my list Trabajo Relax 
+# ::tok Add this song to my list Trabajo Relax 
+# ::alignments 6-8|0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 5-6|0.1 2-3|0.0 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.883
+(a / add-01 
+      :ARG1 (s / song 
+            :mod (t / this)) 
+      :purpose (l / list-01 
+            :ARG0 (p / person 
+                  :name (n / name 
+                        :op1 "Trabajo" 
+                        :op2 "Relax"))))
+
+# ::snt Add this track to my Zen Focus playlist 
+# ::tok Add this track to my Zen Focus playlist 
+# ::alignments 7-8|0.0.0.1 6-7|0.0.0 5-6|0.0.0.0 2-3|0.0 1-2|0.0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.927
+(a / add-01 
+      :ARG1 (t / track 
+            :ARG0-of (f / focus-01 
+                  :ARG1 (z / zen) 
+                  :mod-of (p / playlist)) 
+            :mod (t2 / this)))
+
+# ::snt add décadas to list Neo da Matrix 
+# ::tok add décadas to list Neo da Matrix 
+# ::alignments 6-7|0.1.0.1.0+0.1.0.1+0.1.0 4-6|0.1.0.0.0.1+0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 3-4|0.1 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.968
+(a / add-02 
+      :ARG1 (d2 / década) 
+      :purpose (l / list-01 
+            :ARG1 (o / organization 
+                  :mod (t / thing 
+                        :name (n2 / name 
+                              :op1 (n3 / Neo) 
+                              :op2 (d / da))) 
+                  :name (n / name 
+                        :op1 "Matrix"))))
+
+# ::snt The Zen Focus playlist needs David Franj in 
+# ::tok The Zen Focus playlist needs David Franj in 
+# ::alignments 5-7|0.1.0.1+0.1.0.0+0.1.0+0.1 4-5|0 3-4|0.0 1-3|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:41:59.993
+(n2 / need-01 
+      :ARG0 (p2 / playlist 
+            :mod (t / thing 
+                  :name (n3 / name 
+                        :op1 "Zen" 
+                        :op2 "Focus"))) 
+      :ARG1 (p / person 
+            :name (n / name 
+                  :op1 "David" 
+                  :op2 "Franj")))
+
+# ::snt put four in blue onto Ultimate 00s 
+# ::tok put four in blue onto Ultimate 00s 
+# ::alignments 6-7|0.2.0 5-6|0.2.0.0 4-5|0.2 3-4|0.1 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:42:00.013
+(p / put-01 
+      :ARG1 4 
+      :ARG2 (b / blue) 
+      :time (o / onto 
+            :op1 (0 / 00 
+                  :mod (u / ultimate))))
+
+# ::snt I want global top 50 to have marit bergman added to 
+# ::tok I want global top 50 to have marit bergman added to 
+# ::alignments 9-10|0 8-9|0.0 7-8|0.0.0 4-5|0.1 3-4|0.2 2-3|0.2.1 1-2|0.2.0 0-1|0.2.0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:42:00.094
+(a / add-01 
+      :ARG0 (b / bergman 
+            :mod (m / marit)) 
+      :ARG1 50 
+      :op1-of (t / top 
+            :ARG1-of (w / want-01 
+                  :ARG0 (i / i)) 
+            :mod (g / globe)))
+
+# ::snt add flying to my Women of Rock playlist 
+# ::tok add flying to my Women of Rock playlist 
+# ::alignments 7-8|0.0.1.0 6-7|0.0.1.2+0.0.1.1.1+0.0.1.1.0+0.0.1.1+0.0.1 4-5|0.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:42:00.118
+(a / add-02 
+      :ARG1 (f / fly-01 
+            :ARG1 (w / woman) 
+            :manner (c / company 
+                  :mod-of (p / playlist) 
+                  :name (n / name 
+                        :op1 "Northern" 
+                        :op2 "Rock") 
+                  :wiki "Northern_Rock")))
+
+# ::snt Add Gary Valenciano to the power gaming 
+# ::tok Add Gary Valenciano to the power gaming 
+# ::alignments 6-7|0.1 5-6|0.1.0 1-3|0.0.0.1+0.0.0.0+0.0.0+0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:42:00.205
+(a / add-01 
+      :ARG0 (p2 / person 
+            :name (n / name 
+                  :op1 "Gary" 
+                  :op2 "Valenciano")) 
+      :ARG1 (g / game 
+            :mod (p / power)))
+
+# ::snt Add track to Urban Poet 
+# ::tok Add track to Urban Poet 
+# ::alignments 3-5|0.0.0.1+0.0.0.0+0.0.0+0.0 1-2|0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:42:00.221
+(a / add-01 
+      :ARG0 (t / thing 
+            :name (n / name 
+                  :op1 "Urban" 
+                  :op2 "Poet")) 
+      :ARG1 (t2 / track))
+
+# ::snt add country favorites willie nelson style to my playlist titled Spinnin' Records Top 100 
+# ::tok add country favorites willie nelson style to my playlist titled Spinnin' Records Top 100 
+# ::alignments 10-14|0.2.0.3+0.2.0.2+0.2.0.1+0.2.0.0+0.2.0+0.2 9-10|0 8-9|0.1 5-6|0.0.0.0.0 4-5|0.0.0.0.0.0 2-3|0.0.0 1-2|0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2020-12-08T23:42:00.691
+(t2 / title-01 
+      :ARG0 (c / country 
+            :mod-of (f / favorit 
+                  :ARG1-of (a / add-02 
+                        :ARG0 (s / style 
+                              :mod (n2 / nelson))))) 
+      :ARG1 (p / playlist) 
+      :ARG2 (t / thing 
+            :name (n / name 
+                  :op1 "Spinnin'" 
+                  :op2 "Records" 
+                  :op3 "Top" 
+                  :op4 "100")))
+
