@@ -2,7 +2,7 @@ from make_dict import word_dict, intent_dict, slot_dict
 import torch 
 import torch.nn as nn
 import torch.nn.functional as F
-
+from torch import CRF
 from config import device, DROPOUT
 import config as cfg
 
@@ -17,6 +17,8 @@ class slot_enc(nn.Module):
         self.embedding = nn.Embedding(vocab_size, embedding_size).to(device)
         self.lstm = nn.LSTM(input_size=embedding_size, hidden_size=lstm_hidden_size, num_layers=2,\
                             bidirectional= True, batch_first=True) #, dropout=DROPOUT)
+	self.crf = nn.CRF(vocab_size+1)  # CRF layer, n_tags+1(PAD)
+	
 
     def forward(self, x):
         x = self.embedding(x)
