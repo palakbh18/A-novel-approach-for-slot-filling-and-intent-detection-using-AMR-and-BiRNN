@@ -17,7 +17,7 @@ class slot_enc(nn.Module):
         self.embedding = nn.Embedding(vocab_size, embedding_size).to(device)
         self.lstm = nn.LSTM(input_size=embedding_size, hidden_size=lstm_hidden_size, num_layers=2,\
                             bidirectional= True, batch_first=True) #, dropout=DROPOUT)
-	self.crf = nn.CRF(vocab_size+1)  # CRF layer, n_tags+1(PAD)
+	
 	
 
     def forward(self, x):
@@ -34,6 +34,7 @@ class slot_dec(nn.Module):
         self.lstm = nn.LSTM(input_size=lstm_hidden_size*5, hidden_size=lstm_hidden_size, num_layers=1)
         self.fc = nn.Linear(lstm_hidden_size, label_size)
         self.hidden_size = lstm_hidden_size
+	self.crf = nn.CRF(vocab_size+1)  # CRF layer, n_tags+1(PAD)
 
     def forward(self, x, hi):
         batch = x.size(0)
