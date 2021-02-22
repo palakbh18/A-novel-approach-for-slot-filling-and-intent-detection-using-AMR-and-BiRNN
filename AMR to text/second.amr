@@ -1,0 +1,13 @@
+
+
+
+(w / want-01
+  :ARG0 (b / boy)
+  :ARG1 (g / visit-01
+          :ARG0 b
+          :ARG1 (c / city
+                :name (n / name
+                         :op1 "New"
+ 		         :op2 "York"
+			 :op3 "City"))))
+
